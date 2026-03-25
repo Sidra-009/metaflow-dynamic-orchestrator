@@ -29,9 +29,3 @@ To validate the orchestrator, I didn't just run a "Hello World." I built a multi
 
 #### **Execution Success Proof:**
 <img width="1260" height="340" alt="image" src="https://github.com/user-attachments/assets/3c118f40-5bcb-44b8-95f0-0220a0038c04" />
-```text
-Workflow starting...
-[start/1] Data Loaded: (8807, 12)
-[preprocess/2] Preprocessing finished in a separate cell!
-[end/3] Metaflow Run Complete!
-Done!
