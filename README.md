@@ -23,8 +23,8 @@ In standard notebooks, you can't split a Python class definition across multiple
 ### 📊 Testing with a Netflix Pipeline
 To validate the orchestrator, I didn't just run a "Hello World." I built a multi-cell pipeline using the **Netflix Shows** dataset:
 
-1. **Cell 1 (The Start):** Pulled the raw dataset using `kagglehub`. 
-2. **Cell 2 (The Preprocessor):** Cleaned the data, handled missing values, and applied Label Encoding to the 'type' column to prepare it for modeling.
+1. **The Start:** Pulled the raw dataset using `kagglehub`. 
+2. **The Preprocessor:** Cleaned the data, handled missing values, and applied Label Encoding to the 'type' column to prepare it for modeling.
 3. **The Orchestrator:** This engine took these separate memory blocks, fixed the structural syntax, and triggered a successful Metaflow run.
 
 #### **Execution Success Proof:**
